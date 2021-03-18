@@ -1,5 +1,5 @@
 test:
-  stage:test
+  stage: test
   only:
     - master
   script:
