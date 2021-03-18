@@ -17,6 +17,6 @@ func getAssociatedTraits(c echo.Context) error {
 }
 
 func addAssociation(c echo.Context) error {
-	//handlers.AddAssociationToDB()
+	handlers.AddAssociationToDB()
 	return c.String(http.StatusOK, "HI")
 }

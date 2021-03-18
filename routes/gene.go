@@ -22,7 +22,7 @@ func getGeneList(c echo.Context) error {
 }
 
 func addGene(c echo.Context) error {
-	//handlers.AddVariantToDB()
+	handlers.AddVariantToDB()
 	return c.String(http.StatusOK, "HI")
 }
 
