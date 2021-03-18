@@ -1,0 +1,47 @@
+[
+  {
+    "method": "GET",
+    "path": "/gene/:id",
+    "name": "_/Users/jsungwon/genomeportal/server/routes.getGene"
+  },
+  {
+    "method": "GET",
+    "path": "/variantcount",
+    "name": "_/Users/jsungwon/genomeportal/server/routes.getCountVariants"
+  },
+  {
+    "method": "GET",
+    "path": "/variant/:variantID",
+    "name": "_/Users/jsungwon/genomeportal/server/routes.getVariant"
+  },
+  {
+    "method": "GET",
+    "path": "/association/:variantInfo",
+    "name": "_/Users/jsungwon/genomeportal/server/routes.getAssociatedTraits"
+  },
+  {
+    "method": "GET",
+    "path": "/gene",
+    "name": "_/Users/jsungwon/genomeportal/server/routes.addGene"
+  },
+  {
+    "method": "GET",
+    "path": "/genecount",
+    "name": "_/Users/jsungwon/genomeportal/server/routes.getCountGenes"
+  },
+  {
+    "method": "GET",
+    "path": "/association",
+    "name": "_/Users/jsungwon/genomeportal/server/routes.addAssociation"
+  },
+  {
+    "method": "GET",
+    "path": "/test",
+    "name": "_/Users/jsungwon/genomeportal/server/routes.test"
+  },
+  {
+    "method": "GET",
+    "path": "/genelist",
+    "name": "_/Users/jsungwon/genomeportal/server/routes.getGeneList"
+  }
+]
