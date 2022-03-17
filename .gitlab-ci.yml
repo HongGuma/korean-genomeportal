@@ -3,6 +3,6 @@ test:
   only:
     - master
   script:
-    - echo 'hello world!' >/home/jsungwon/test.txt
+    - echo 'hello world!' >~/test.txt
   tags:
     - test
