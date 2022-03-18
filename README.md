@@ -1,2 +1,15 @@
-# Setting
-https://namioto.ip.or.kr/2018/07/16/gitlab-ci%EB%A1%9C-%EC%9E%90%EB%8F%99%EB%B0%B0%ED%8F%AC%ED%95%98%EA%B8%B0/
+List of modules to be installed
+1. nodemon
+2. express
+3. cors
+4. body-parser
+5. winston
+6. winston-daily-rotate-file
+7. mongoose
+8. request-ip
+9. express-rate-limit
+
+module installation method
+`npm install [module name] --save -dev`
+
+run `nodemon server.js` on the console
