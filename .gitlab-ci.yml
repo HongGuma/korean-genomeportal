@@ -1,8 +1,0 @@
-test:
-  stage: test
-  only:
-    - master
-  script:
-    - echo 'hello world!' >~/test.txt
-  tags:
-    - test
